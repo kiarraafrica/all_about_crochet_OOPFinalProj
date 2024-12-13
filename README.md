@@ -5,6 +5,7 @@
     📍OOP Principles
     📍Sustainable Development Goal (SDG)
     📍Instruction for Running the Program
+    📍About the Developer
 
 ## Overview of the Project
 *This java-project tailored for crochet enthusiast, is designed to offer comprehensive description of crochet tools, yarns, different stitches, and helpful tips & tricks. It also includes a personalized suggestion that features to inspire users with color options and project ideas. To spice things up, users can maintain their personal yarn stash to organize their yarns.*
