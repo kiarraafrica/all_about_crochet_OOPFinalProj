@@ -1,15 +1,15 @@
 ![Alt text](gif.gif)
 
 ## Table of Contents:
-    📍I. Overview
-    📍II. OOP Principles
-    📍III. SDG
-    📍IV. Instruction
+    📍Overview of the Project
+    📍OOP Principles
+    📍Sustainable Development Goal (SDG)
+    📍Instruction for Running the Program
 
-## Overview:
+## Overview of the Project
 *This java-project tailored for crochet enthusiast, is designed to offer comprehensive description of crochet tools, yarns, different stitches, and helpful tips & tricks. It also includes a personalized suggestion that features to inspire users with color options and project ideas. To spice things up, users can maintain their personal yarn stash to organize their yarns.*
 
-## OOP Principles:
+## OOP Principles
 1. **Encapsulation**
     - 🔒Encapsulation is achieved by keeping the attributes of the Tool, Yarn, Stitch, and Tips classes private and exposing them through public getter methods. For example, in the Tool class, attributes like name and description are private, and methods like getName() and getDescription() provide controlled access. Similarly, the Yarn, Stitch, and Tips classes use private attributes such as name, description, and hookSize to store their data. This approach ensures that the internal state of these classes is protected and only accessible through well-defined methods.
 2. **Abstraction**
@@ -19,8 +19,8 @@
 4. **Polymorphism**
     - 🔄Polymorphism is demonstrated through method overriding. The getSuggestion method in the Suggester2 class is overridden by ColorSuggester and ProjectSuggester to provide specialized behavior based on the object type at runtime. This allows for dynamic method dispatch during execution.
 
-## Sustainable Development Goal (SDG):
-**SDG 4: Quality Education**
+## Sustainable Development Goal (SDG)
+- **SDG 4: Quality Education**
     1. *Promotes Skill Development*
         - 🎓This project provides education resources about crochet, such as tools, yarnology, stitch libraries, and tips & tricks. These features encourages users to develop a tangible, creative skill that fosters personal growth and creativity.
     2. *Support Lifelong Learner*
@@ -28,7 +28,7 @@
     3. *Accessible Education*
         - 🌐By presenting crochet tools, techniques, and ideas in a clear, engaging way, the project makes education accessible to individuals who might not have formal instruction in crafting.
 
-## Instruction to Run the Program
+## Instruction for Running the Program
 1. Main Menu
     - 📝Sign up: If you do not have an account
     - 🔑Log in: Access your account
@@ -47,3 +47,9 @@
         - 🎨Palette Picker: Generate 1-color, 2-color, or 5-color palettes
         - 🪡Project Ideas Generator: Receive suggestions for simple or big projects, with design ideas
 3. Log out
+
+- COURSE:
+    - CS 211 (Object-Oriented Programming)
+
+- COURSE FACILITATOR:
+    - Miss Fatima Marie Agdon
