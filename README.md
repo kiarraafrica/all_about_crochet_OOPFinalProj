@@ -1,4 +1,6 @@
-![Alt text](gif.gif)
+<p align="center">
+  <img src="your-gif.gif" width="250" height="auto">
+</p>
 
 Welcome to **All 'bout Crochet**!
 
