@@ -1,34 +1,49 @@
 ![Alt text](gif.gif)
 
-Welcome to **All 'bout Crochet**!
+## Table of Contents:
+    📍I. Overview
+    📍II. OOP Principles
+    📍III. SDG
+    📍IV. Instruction
 
+## Overview:
 *This java-project tailored for crochet enthusiast, is designed to offer comprehensive description of crochet tools, yarns, different stitches, and helpful tips & tricks. It also includes a personalized suggestion that features to inspire users with color options and project ideas. To spice things up, users can maintain their personal yarn stash to organize their yarns.*
 
-## I. Features:
-- **Yarn Stash**: Organize and maintain your personal yarn stash.
-- **Crochet Tools**: Detailed desciptions of tools used in crocheting.
-- **Yarns**: Information about different types of yarn, their descriptions, and preferred hook size.
-- **Stitches**: Learn various crochet stitches and techniques.
-- **Tips & Tricks**: Get useful advice to enhance your crocheting skills.
-- **Suggesters**: Receive inspiration with color options and project ideas.
-
-## II. OOP Principles:
+## OOP Principles:
 1. **Encapsulation**
-    - In the UserManager class, sensitive data like userData is private, and methods such as setUsernameInput(), setPasswordInput(), and saveUser() ensure secure interaction. Similarly, the YarnStash class controls access to yarn stash information with methods like addYarn(), removeYarn(), and editStash(), keeping the internal structure hidden. The Tool, Yarn, Stitch, and Tips classes also encapsulate their attributes, providing public getter methods for access.
+    - 🔒Encapsulation is achieved by keeping the attributes of the Tool, Yarn, Stitch, and Tips classes private and exposing them through public getter methods. For example, in the Tool class, attributes like name and description are private, and methods like getName() and getDescription() provide controlled access. Similarly, the Yarn, Stitch, and Tips classes use private attributes such as name, description, and hookSize to store their data. This approach ensures that the internal state of these classes is protected and only accessible through well-defined methods.
 2. **Abstraction**
-    -  The abstract class Suggester2 defines a blueprint for subclasses like ColorSuggester and ProjectSuggester, which implement the getSuggestion() method. The YarnStash class abstracts yarn management, offering simple methods for user interaction, while the AboutCrochet class organizes the Tool, Yarn, Stitch, and Tips classes into intuitive menus and methods.
+    - 🎭Abstraction is implemented through the use of abstract classes like Suggester2. This abstract class provides a high-level blueprint for different types of suggesters, hiding the underlying complexity of specific implementations like ColorSuggester and ProjectSuggester from the user.
 3. **Inheritance**
-    - The Suggester2 class serves as a base for ColorSuggester and ProjectSuggester, while initializers like ToolInitializer, YarnInitializer, StitchInitializer, and TipsInitializer extend functionality, creating collections for easy access.
+    - 🧬The project leverages inheritance to promote code reuse. For instance, in the Suggester class, the ColorSuggester and ProjectSuggester classes inherit from the abstract Suggester2 class, enabling specific implementations of the getSuggestion method while sharing common functionality.
 4. **Polymorphism**
-    - The Suggester class dynamically handles subclasses like ColorSuggester and ProjectSuggester, each overriding getSuggestion(). The AboutCrochet class uses polymorphism to process objects like Tool, Yarn, Stitch, and Tips generically while preserving their specific behaviors.
+    - 🔄Polymorphism is demonstrated through method overriding. The getSuggestion method in the Suggester2 class is overridden by ColorSuggester and ProjectSuggester to provide specialized behavior based on the object type at runtime. This allows for dynamic method dispatch during execution.
 
-## III. Sustainable Development Goal (SDG):
-- **SDG 4: Quality Education**
+## Sustainable Development Goal (SDG):
+**SDG 4: Quality Education**
     1. *Promotes Skill Development*
-        - This project provides education resources about crochet, such as tools, yarnology, stitch libraries, and tips & tricks. These features encourages users to develop a tangible, creative skill that fosters personal growth and creativity.
+        - 🎓This project provides education resources about crochet, such as tools, yarnology, stitch libraries, and tips & tricks. These features encourages users to develop a tangible, creative skill that fosters personal growth and creativity.
     2. *Support Lifelong Learner*
-        - Crochet, as an activity, is suitable for all ages, making it a lifelong learning opportunity. Whether the users are beginners or advanced crafters, they can continuously expand their skills with the project's tools like tutorials and project suggestions.
+        - 🌟Crochet, as an activity, is suitable for all ages, making it a lifelong learning opportunity. Whether the users are beginners or advanced crafters, they can continuously expand their skills with the project's tools like tutorials and project suggestions.
     3. *Accessible Education*
-        - By presenting crochet tools, techniques, and ideas in a clear, engaging way, the project makes education accessible to individuals who might not have formal instruction in crafting.
+        - 🌐By presenting crochet tools, techniques, and ideas in a clear, engaging way, the project makes education accessible to individuals who might not have formal instruction in crafting.
 
-## IV. Instruction
+## Instruction to Run the Program
+1. Main Menu
+    - 📝Sign up: If you do not have an account
+    - 🔑Log in: Access your account
+2. Crochet Menu
+    - Yarn Stash
+        - 👀View: See all yarns in your stash or be notified if it's empty
+        - ➕Add: Add yarn details, including type, color, and weight
+        - ✏️Edit: Update the information of a specific yarn
+        - 🗑️Remove: Delete yarn from your stash
+    - About Crochet Menu
+        - 🛠️Crochet Tools: Descriptions of essential crochet tools
+        - 🧵Yarnology: Explore different yarn types and their characteristics
+        - 📖Stitch Library: Tutorials for a variety of stitches
+        - 💡Tips and Tricks: Helpful advice to improve your crocheting skills
+    - Suggester
+        - 🎨Palette Picker: Generate 1-color, 2-color, or 5-color palettes
+        - 🪡Project Ideas Generator: Receive suggestions for simple or big projects, with design ideas
+3. Log out
