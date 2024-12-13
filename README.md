@@ -48,8 +48,10 @@
         - 🪡Project Ideas Generator: Receive suggestions for simple or big projects, with design ideas
 3. Log out
 
-## Developer's Note
+## About the Developer
 - Kiarra Francecsa Gabrielle S. Africa
 
-- COURSE: CS 211 (Object-Oriented Programming)
-- COURSE FACILITATOR: Ms. Fatima Marie Agdon, MSCS
+- COURSE:
+    - CS 211 (Object-Oriented Programming)
+- COURSE FACILITATOR:
+    - Ms. Fatima Marie Agdon, MSCS
