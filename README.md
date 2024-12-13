@@ -1,7 +1,4 @@
-<video width="320" height="240" controls>
-  <source src="gif.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+![Alt text](gif.gif)
 
 Welcome to **All 'bout Crochet**!
 
