@@ -1,7 +1,4 @@
-<p align="center">
-  <img src="gif.gif" width="800" height="auto">
-</p>
-
+![Alt text](gif.gif)
 
 Welcome to **All 'bout Crochet**!
 
